@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000
 connectDB()
 
 // Configurer le dossier 'my-images' comme un dossier statique
-app.use('/images', express.static(path.join(__dirname, 'my-images')));
+// app.use('/images', express.static(path.join(__dirname, 'my-images')));
 
 // middlewares
 
